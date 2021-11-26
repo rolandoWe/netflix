@@ -1,0 +1,62 @@
+@media(max-width:992px){
+.header_info{
+    width:100%
+}
+.com_ya{
+    width:50%
+}
+}
+@media(max-width:768px){
+    .header_input{
+        width:80%
+    }
+    .com_ya{
+        width:50%
+    }
+    .ya_input{
+        height:70px;
+        flex-wrap: wrap;
+    }
+    .ya_email,.ya_btn{
+        height:30px
+    }
+    .ya_btn{
+        width:40%;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+}
+@media(max-width:576px){
+    .menu{
+        width:100%
+    }
+    .header_input{
+        background-color: rgba(202, 136, 38, 0);
+        width:90%;
+        height:75px;
+        flex-wrap: wrap;
+    }
+    .input_email{
+        width:90%;
+        height: 30px;
+    }
+   .input_btn{
+       font-size: 18px;
+       height: 30px;
+       width:150px;
+       border-radius: 5px;
+
+   }
+   .li{
+       width:90%
+   }
+   .com_ya{
+    width:90%
+   }
+   .footer{
+       flex-wrap: wrap;
+   }
+   .footer_ul{
+       width:40%
+   }
+}
